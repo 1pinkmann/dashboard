@@ -7,3 +7,21 @@
     padding: 0 20px;
     margin: 0 auto;
 }
+
+.button {
+    background-color: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    font-size: 18px;
+
+    border: 1px solid #343434;
+    text-transform: uppercase;
+
+    transition: all 0.2s ease-out;
+
+    &:hover {
+        background-color: #343434;
+        color: #ffffff;
+    }
+}

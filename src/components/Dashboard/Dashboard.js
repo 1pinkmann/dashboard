@@ -10,5 +10,5 @@ export default function Dashboard(props) {
                 return <DashboardItem key={item.id} item={item} handleUnfocus={props.handleUpdateItem} deleteItem={props.handleDeleteItem}/>;
             })}
         </ul>
-    )
+    );
 }

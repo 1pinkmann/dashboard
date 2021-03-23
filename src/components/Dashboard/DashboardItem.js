@@ -16,7 +16,7 @@ export default function DashboardItem(props) {
 
     return (
         <li className="dashboard__item">
-            <button className="dashboard__item-delete" onClick={handleDeleteClick}>X</button>
+            <button className="dashboard__item-delete" onClick={handleDeleteClick}></button>
             <textarea name="dashboard" className="dashboard__item-textarea" defaultValue={props.item.description} placeholder="Введите текст" onBlur={unfocus}/>
         </li>
     )
